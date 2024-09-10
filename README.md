@@ -1,6 +1,6 @@
-# Gloo-7689 Reproducer
+# Gloo-9830 Reproducer
 
-Issue: https://github.com/solo-io/gloo/issues/7689
+Issue: https://github.com/solo-io/gloo/issues/9830
 
 ## Installation
 
