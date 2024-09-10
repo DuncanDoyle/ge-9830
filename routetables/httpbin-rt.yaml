@@ -1,0 +1,25 @@
+apiVersion: gateway.solo.io/v1
+kind: RouteTable
+metadata:
+  labels:
+    route: "true"
+  name: httpbin
+  namespace: httpbin
+spec:
+  routes:
+  - matchers:
+    - headers:
+      - name: city-id
+        value: "99999"
+      prefix: /
+    routeAction:
+      single:
+        upstream:
+          name: httpbin-httpbin-8000
+          namespace: gloo-system
+  - directResponseAction:
+      body: DIRECT1
+      status: 200
+    matchers:
+    - headers:
+      prefix: /get
