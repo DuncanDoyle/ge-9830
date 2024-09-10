@@ -124,7 +124,6 @@ One RouteTable:
     "last_updated": "2024-09-10T13:45:20.260Z"
   }
 ]
-
 ```
 
 Two RouteTables:
@@ -209,7 +208,6 @@ Two RouteTables:
     "last_updated": "2024-09-10T13:50:01.266Z"
   }
 ]
-  
 ```
 
 ## Conclusion
