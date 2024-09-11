@@ -2,7 +2,7 @@ apiVersion: gateway.solo.io/v1
 kind: RouteTable
 metadata:
   labels:
-    route: "false"
+    route: "true"
   name: httpbin-2
   namespace: httpbin
 spec:
